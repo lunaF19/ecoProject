@@ -2,13 +2,13 @@ name: Deploy de la página
 on:
   push:
     branches: 
-	   - master
- jobs:
-   deploy-page:
-     runs-on: ubuntu-latest
-	 steps:
-	   - name: ecoProyec
-	     uses: JamesIves/github-pages-deploy-action@4.1.4
-		  with: 
-		    branch: gh-pages
-		    folder: .
+      - master
+jobs:
+  deploy-page:
+    runs-on: ubuntu-latest
+    steps:
+     - name: ecoProyec
+       uses: JamesIves/github-pages-deploy-action@4.1.4
+       with:
+         branch: gh-pages
+         folder: .
