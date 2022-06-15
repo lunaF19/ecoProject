@@ -292,7 +292,7 @@ function agregaContenidoTema(content) {
 
 function cargaIntegrantes() {
     i = 1,
-        divForInt = '<h3> Integrantes: </h3> <hr> '
+        divForInt = '<h3 class="integrante-h3"> Integrantes: </h3> <hr class="integrante-hr"> '
 
 
     integrantes.forEach(int => {
@@ -310,7 +310,7 @@ function cargaIntegrantes() {
                         </div>
                     </div>
                 </div>
-                <hr>
+                <hr class="integrante-hr">
             `
         i++
     })
@@ -337,12 +337,10 @@ function cargaTemas() {
         cartTemas = cartTemas + `
         <div class=" cardTheme ${ toggleDarkLightValue() && "dark"}">
             <img src="${tema.img}" class="cardTheme-img" alt="img_${tema.description}">
-            <div class="cardTheme-white">
                 <a id="aTema${tema.id}" onClick=aFunction("${tema.ruta}") href="${tema.ruta}" class="cardTheme-btn">
-                <span>Leer Más...</span>
                 <q class="cardTheme-title">${tema.title}</q>
                 </a>
-            </div>
+            </img>
         </div>
         `
     })
