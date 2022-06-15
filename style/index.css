@@ -343,7 +343,6 @@ header {
     font-size: 18px;
   }
   .navbarDark.active {
-    background-color: red;
   }
 
   .divIntegrantes {
@@ -354,7 +353,81 @@ header {
     margin-left: 25%;
   }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1750px) {
+  .cardTheme {
+    width: 12rem;
+    height: 12rem;
+    border: 1px solid white;
+    padding: 0px;
+    margin: 0.3125rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .cardTheme-img {
+    width: 12rem;
+    height: 12rem;
+    margin: 0px;
+    transition: all 1s;
+  }
+
+  .cardTheme-img:hover {
+  }
+
+  .cardTheme-btn {
+    display: block;
+    text-decoration: none;
+    color: steelblue;
+  }
+
+  .cardTheme-title {
+    display: block;
+  }
+
+  .cardTheme-btn {
+    background: transparent;
+    color: transparent;
+    position: absolute;
+    transition: all 1s;
+    width: 12rem;
+    height: 11.5rem;
+    font-size: 1rem;
+  }
+  .cardTheme-btn:hover {
+    font-size: 1.2rem;
+    padding-top: 10px;
+  }
+
+  .contenidoPagina {
+    height: 900px;
+    width: 40rem;
+    overflow: auto;
+  }
+
+  .divTemas {
+    height: 1150px;
+    width: 26rem;
+    
+    grid-auto-columns: 12rem;
+    grid-template-columns: repeat(1fr * 3);
+    overflow: auto;
+  }
+
+  .divCartTemas {
+    width: 26rem;
+    margin: 10px;
+    margin: 0px;
+    border: 1px solid green;
+    overflow: visible;
+  }
+
+  .temaConten-img1,
+  .temaConten-img2 {
+    width: 20.5rem;
+    height: 8.75rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -400,17 +473,16 @@ header {
     height: 2px;
     margin: 0px;
     padding: 0px;
-    border: 1px solid green;
   }
 
   .divTemas {
     height: 900px;
-    width:300px ;
+    width: 300px;
     overflow: visible;
   }
 
   /* Tarjetas temas*/
-.cardTheme {
+  .cardTheme {
     width: 9rem;
     height: 10rem;
     border: 1px solid white;
@@ -421,27 +493,27 @@ header {
     justify-content: center;
     justify-items: center;
   }
-  
+
   .cardTheme-img {
     width: 9rem;
     height: 10rem;
     margin: 0px;
     transition: all 1s;
   }
-  
+
   .cardTheme-img:hover {
   }
-  
+
   .cardTheme-btn {
     display: block;
     text-decoration: none;
     color: steelblue;
   }
-  
+
   .cardTheme-title {
     display: block;
   }
-  
+
   .cardTheme-btn {
     background: transparent;
     color: transparent;
@@ -458,14 +530,13 @@ header {
 
   .contenidoPagina {
     height: 900px;
-    width: 400px ;
+    width: 400px;
     overflow: auto;
   }
 
   .temaConten-img1,
-    .temaConten-img2 {
+  .temaConten-img2 {
     width: 20.5rem;
     height: 8.75rem;
-    }
-  
+  }
 }
