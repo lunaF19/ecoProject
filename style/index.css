@@ -83,16 +83,10 @@ header {
 
 .navbarDark a:hover,
 .navbarLigth a:hover {
-  background: white;
-  color: black;
+  color: rgb(123, 120, 120);
   border-radius: 10px;
   padding: 5px;
   font-size: 15px;
-}
-
-.navbarLigth a:hover {
-  background: black;
-  color: white;
 }
 
 .Logo {
@@ -118,8 +112,7 @@ header {
   text-decoration: none;
 }
 
-/*Integrantes */
-
+/* Integrantes */
 .dashIntegrantesDark,
 .dashIntegrantesLigth {
   position: fixed;
@@ -174,6 +167,7 @@ header {
   width: 100px;
   padding-top: 0px;
   margin-left: 15px;
+  font-size: 14px;
 }
 
 .dashIntegrantes {
@@ -219,7 +213,7 @@ header {
 .cardTheme {
   display: inline-block;
   width: 40%;
-  height: 12rem;
+  height: 16.8%;
   border: 1px solid white;
   padding: 0px;
   margin: 0.3125rem;
@@ -230,7 +224,7 @@ header {
 
 .cardTheme-img {
   width: 100%;
-  height: 12.5rem;
+  height: 100%;
   transition: all 1s;
 }
 
@@ -249,7 +243,6 @@ header {
   position: fixed;
   margin: 0%;
   width: 10px;
-  background: #000;
 }
 
 /*Contenido Tema*/
@@ -277,196 +270,135 @@ header {
   height: 18.75rem;
 }
 
-@media screen and (max-width: 1700) {
-  body {
-    font-size: 18px;
-  }
-  .navbarDark.active {
+@media screen and (max-width: 1700px) {
+
+  .cardTheme {
+    width: 39%;
+    height: 10%;
   }
 
-  .divIntegrantes {
-    width: 50%;
+  .integrante {
+    grid-template-columns: 1fr;
+  }
+  
+  .integrante-nombre {
+  }
+  
+  .integrante-img {
+    grid-template-columns: 1fr ;
   }
 
   .containerPrincipal {
-    margin-left: 25%;
+    margin-left: 5%;
+
   }
 }
-@media screen and (max-width: 1750px) {
-  .cardTheme {
-    width: 12rem;
-    height: 12rem;
-    border: 1px solid white;
-    padding: 0px;
-    margin: 0.3125rem;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-  }
 
-  .cardTheme-img {
-    width: 12rem;
-    height: 12rem;
-    margin: 0px;
-    transition: all 1s;
-  }
-
-  .cardTheme-img:hover {
-  }
-
-  .cardTheme-btn {
-    display: block;
-    text-decoration: none;
-    color: steelblue;
-  }
-
-  .cardTheme-title {
-    display: block;
-  }
-
-  .cardTheme-btn {
-    background: transparent;
-    color: transparent;
-    position: absolute;
-    transition: all 1s;
-    width: 12rem;
-    height: 11.5rem;
-    font-size: 1rem;
-  }
-  .cardTheme-btn:hover {
-    font-size: 1.2rem;
-    padding-top: 10px;
-  }
-
-  .contenidoPagina {
-    height: 900px;
-    width: 40rem;
-    overflow: auto;
-  }
-
-  .divCartTemas {
-    width: 26rem;
-    margin: 10px;
-    margin: 0px;
-    border: 1px solid green;
-    overflow: visible;
-  }
-
-  .temaConten-img1,
-  .temaConten-img2 {
-    width: 20.5rem;
-    height: 8.75rem;
-  }
-}
 
 @media screen and (max-width: 1200px) {
-}
 
-@media screen and (max-width: 1000px) {
-}
-
-@media screen and (max-width: 800px) {
-}
-
-@media screen and (max-width: 700px) {
   body {
-    font-size: 12px;
+    font-size: 17px;
   }
 
-  .integrantesLigth,
-  .integrantesDark,
-  .divIntegrantes,
-  .integrante,
-  .integrante-nombre,
-  .integrante-img,
-  .integrante-desc,
-  .integrante-hr,
   .integrante-h3 {
-    position: relative;
-    visibility: hidden;
+    font-size: 18px;
   }
 
-  .containerPrincipal,
-  .container2 {
-    margin: 0px;
-    padding: 0px;
+  .integrante-nombre {
+    font-size: 15px;
+  }
+
+  .integrante-desc {
+    font-size: 11px;
+  }
+
+  .imgCir {
+    width: 85px;
+    
+  }
+
+}
+
+@media screen and (max-width: 900px) { 
+
+  body {
+    font-size: 15px;
+  }
+
+  .integrante-h3 {
+    font-size: 18px;
+
+  }
+  .integrante-nombre {
+    font-size: 15px;
+  }
+
+  .integrante-desc {
+    font-size: 11px;
+
+  }
+
+  .imgCir {
+    width: 80px;
+  }
+
+}
+
+
+@media screen and (max-width: 800px) { 
+  body {
+    font-size: 13px;
   }
   .containerPrincipal {
-    margin-top: 50px;
-  }
+    margin-left: 0%;
 
-  .integrantesDark,
-  .integrantesLigth,
-  .integrantesDark.active,
-  .integrantesLigth.active {
-    height: 2px;
-    margin: 0px;
+  }
+  .sectionContenidoSelecionado {
+    padding: 1px;
+  }
+  .temaConten {
     padding: 0px;
+    margin-left: 0px;
   }
 
-  .divTemas {
-    height: 900px;
-    width: 300px;
-    overflow: visible;
-  }
-
-  /* Tarjetas temas*/
   .cardTheme {
-    width: 9rem;
-    height: 10rem;
-    border: 1px solid white;
-    padding: 0px;
-    margin: 0.3125rem;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
+    width: 100%;
+    height: 5%;
   }
 
-  .cardTheme-img {
-    width: 9rem;
-    height: 10rem;
+  .dashIntegrantesLigth, .dashIntegrantesDark{
+    display: flexbox;
+    position: relative;
+    width: 100%;
+    height: 40vh;
+  }
+
+  .integrante {
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 0px;
+
+  }
+  .integrante-h3 {
+    height: auto;
     margin: 0px;
-    transition: all 1s;
   }
 
-  .cardTheme-img:hover {
+  .integrante-hr {
+    display: inline-block;
+    visibility: hidden;
+    width: 0px;
+
   }
 
-  .cardTheme-btn {
-    display: block;
-    text-decoration: none;
-    color: steelblue;
-  }
+}
 
-  .cardTheme-title {
-    display: block;
-  }
-
-  .cardTheme-btn {
-    background: transparent;
-    color: transparent;
-    position: absolute;
-    transition: all 1s;
-    width: 9rem;
-    height: 9.5rem;
-    font-size: 1rem;
-  }
-  .cardTheme-btn:hover {
-    font-size: 1.2rem;
-    padding-top: 10px;
-  }
-
-  .contenidoPagina {
-    height: 900px;
-    width: 400px;
-    overflow: auto;
-  }
-
-  .temaConten-img1,
-  .temaConten-img2 {
-    width: 20.5rem;
-    height: 8.75rem;
+@media screen and (max-width: 600px) { 
+  body {
+    margin-top: 10px;
   }
 }
+
