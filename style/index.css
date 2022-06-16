@@ -302,7 +302,12 @@ header {
     width: 39%;
     height: 10%;
   }
-
+  .cardTheme-btn {
+    color: white;
+    padding-top: 90px ;
+    font-size: 18px;
+  }
+  
   .integrante {
     grid-template-columns: 1fr;
   }
@@ -344,6 +349,13 @@ header {
     
   }
 
+  .cardTheme-btn {
+    color: white;
+    padding-top: 96px ;
+    font-size: 15px;
+  }
+  
+
 }
 
 @media screen and (max-width: 900px) { 
@@ -367,6 +379,11 @@ header {
 
   .imgCir {
     width: 80px;
+  }
+  .cardTheme-btn {
+    color: white;
+    padding-top: 98px ;
+    font-size: 12px;
   }
 
 }
@@ -444,6 +461,12 @@ header {
 
   }
 
+  .cardTheme-btn {
+    color: white;
+    padding-top: 97px ;
+    font-size: 16px;
+  }
+
 }
 
 @media screen and (max-width: 600px) { 
@@ -451,6 +474,12 @@ header {
     margin-top: 10px;
   }
   .temaConten {
+  }
+
+  .cardTheme-btn {
+    color: white;
+    padding-top: 97px ;
+    font-size: 15px;
   }
 }
 
@@ -489,6 +518,12 @@ header {
     width: auto;
     margin: 0;
     height: 5%;
+  }
+
+  .cardTheme-btn {
+    color: white;
+    padding-top: 45px ;
+    font-size: 10px;
   }
 }
 
