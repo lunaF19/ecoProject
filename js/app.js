@@ -163,66 +163,67 @@ const temasContent = [{
 ]
 
 const intro = `
-<h1>Introducción</h1>
-<p style="text-align: justify; font-size: 20px;">
+<div class="temaConten">
+    <h1>Introducción</h1>
+    <p style="text-align: justify; font-size: 20px;">
 
-    La sostenibilidad consiste en satisfacer las necesidades de las generaciones actuales sin
-    comprometer las necesidades de las generaciones futuras, al mismo tiempo que se garantiza un
-    equilibrio entre el crecimiento de la economía, el respeto al medioambiente y el bienestar social.
-    <br>
-    <br>
-    En los últimos tiempos, el acelerado progreso tecnológico y la excesiva industrialización han
-    traído, como consecuencia, el abuso en el consumo de recursos naturales, con el consecuente
-    desequilibrio ambiental, así como desórdenes y problemas sociales de todo tipo, a pesar de que, en
-    algunos países, se ha observado un desarrollo económico notable.
-    <br>
-    <br>
-    Hoy por hoy, se precisa desarrollar e implementar estrategias que permitan tener espacios y
-    ambientes que sean sostenibles. Los impactos en el medio ambiente están generando angustia y han
-    encendido las alarmas en todo el mundo debido a los altos índices de contaminación y polución. Una
-    de las principales causas es el uso de sistemas de transporte urbano ya que algunos no cumplen con
-    las medidas ambientales correspondientes.
-    <br>
-    <br>
-    Ante la problemática, los gobiernos nacionales y distritales han implementado varias medidas que
-    ayudarán a disminuir los índices de contaminación. Por su parte, las personas han tomado sus propias
-    medidas utilizando transporte ecológico y vehículos que no contaminan.
-    <br>
-    <br>
-    El transporte ecológico se creó con el propósito de reducir la polución en las grandes ciudades. Una
-    de las características de estos transportes es que pueden ser eléctricos o con energías renovables y
-    sostenibles que respetan el medio ambiente. Dentro de las ventajas de contar con un transporte
-    ecológico, esta la disminución de la contaminación que tanto afecta al medio ambiente.
-    Una de las tantas razones por las cuales utilizar estos transportes se basa en mejorar la calidad
-    del aire que respiramos ya que estos vehículos y aparatos no necesitan de grandes cargas de energía
-    para funcionar.
-    Hay muchas acciones que se pueden tomar para conseguir un transporte realmente ecológico. Una de
-    ellas es la reducción de la demanda, pero como, por razones obvias, esta no es posible reducirse a
-    cero, es necesario combinarla con otras medidas, como la electrificación de los automóviles, la
-    optimización de procesos de producción y lograr un consumo más eficiente de los recursos.
-    El transporte sostenible plantea diversos desafíos, no solo para el medio ambiente sino también para
-    las necesidades de los consumidores. En concreto, se debe tener en cuenta que la demanda de bienes y
-    servicios relacionados con el transporte está aumentando. Cada vez son más las personas que
-    prefieren conducir sus propios automóviles y las compras online se están generalizando, lo que
-    aumenta las necesidades de transporte. En general, en prácticamente todo el mundo se consume más y,
-    además, los bienes deben entregarse al cliente final, lo que implica más contaminación y una mayor
-    demanda de recursos energéticos.
-    A pesar de los esfuerzos que se están haciendo por consumir energía verde y usar materiales
-    reciclables y ecológicos, todavía no existe una tendencia hacia la reducción de emisiones lo
-    suficientemente clara.
-    Popularizar los vehículos eléctricos y mejorar la eficiencia de las unidades de energía existentes
-    es importante, pero insuficiente. Existen otras muchas medidas que es necesario implementar para
-    conseguir que el transporte sea más respetuoso con el medio ambiente. Una de ellas es fomentar el
-    transporte público urbano sostenible. Una de las grandes ventajas de crear una red eficiente de
-    transporte público es la reducción del tráfico de automóviles particulares. Para conseguir crear una
-    red de transporte colectiva óptima y sostenible en las grandes aglomeraciones urbanas es necesario
-    implantar medidas basadas en tecnologías inteligentes. Este tipo de medidas deberían responder al
-    espíritu de lo que se conoce como ciudad inteligente (Smart city), lo cual aún se encuentra en
-    desarrollo.
-    <br>
-    <br>
-
-</p>
+        La sostenibilidad consiste en satisfacer las necesidades de las generaciones actuales sin
+        comprometer las necesidades de las generaciones futuras, al mismo tiempo que se garantiza un
+        equilibrio entre el crecimiento de la economía, el respeto al medioambiente y el bienestar social.
+        <br>
+        <br>
+        En los últimos tiempos, el acelerado progreso tecnológico y la excesiva industrialización han
+        traído, como consecuencia, el abuso en el consumo de recursos naturales, con el consecuente
+        desequilibrio ambiental, así como desórdenes y problemas sociales de todo tipo, a pesar de que, en
+        algunos países, se ha observado un desarrollo económico notable.
+        <br>
+        <br>
+        Hoy por hoy, se precisa desarrollar e implementar estrategias que permitan tener espacios y
+        ambientes que sean sostenibles. Los impactos en el medio ambiente están generando angustia y han
+        encendido las alarmas en todo el mundo debido a los altos índices de contaminación y polución. Una
+        de las principales causas es el uso de sistemas de transporte urbano ya que algunos no cumplen con
+        las medidas ambientales correspondientes.
+        <br>
+        <br>
+        Ante la problemática, los gobiernos nacionales y distritales han implementado varias medidas que
+        ayudarán a disminuir los índices de contaminación. Por su parte, las personas han tomado sus propias
+        medidas utilizando transporte ecológico y vehículos que no contaminan.
+        <br>
+        <br>
+        El transporte ecológico se creó con el propósito de reducir la polución en las grandes ciudades. Una
+        de las características de estos transportes es que pueden ser eléctricos o con energías renovables y
+        sostenibles que respetan el medio ambiente. Dentro de las ventajas de contar con un transporte
+        ecológico, esta la disminución de la contaminación que tanto afecta al medio ambiente.
+        Una de las tantas razones por las cuales utilizar estos transportes se basa en mejorar la calidad
+        del aire que respiramos ya que estos vehículos y aparatos no necesitan de grandes cargas de energía
+        para funcionar.
+        Hay muchas acciones que se pueden tomar para conseguir un transporte realmente ecológico. Una de
+        ellas es la reducción de la demanda, pero como, por razones obvias, esta no es posible reducirse a
+        cero, es necesario combinarla con otras medidas, como la electrificación de los automóviles, la
+        optimización de procesos de producción y lograr un consumo más eficiente de los recursos.
+        El transporte sostenible plantea diversos desafíos, no solo para el medio ambiente sino también para
+        las necesidades de los consumidores. En concreto, se debe tener en cuenta que la demanda de bienes y
+        servicios relacionados con el transporte está aumentando. Cada vez son más las personas que
+        prefieren conducir sus propios automóviles y las compras online se están generalizando, lo que
+        aumenta las necesidades de transporte. En general, en prácticamente todo el mundo se consume más y,
+        además, los bienes deben entregarse al cliente final, lo que implica más contaminación y una mayor
+        demanda de recursos energéticos.
+        A pesar de los esfuerzos que se están haciendo por consumir energía verde y usar materiales
+        reciclables y ecológicos, todavía no existe una tendencia hacia la reducción de emisiones lo
+        suficientemente clara.
+        Popularizar los vehículos eléctricos y mejorar la eficiencia de las unidades de energía existentes
+        es importante, pero insuficiente. Existen otras muchas medidas que es necesario implementar para
+        conseguir que el transporte sea más respetuoso con el medio ambiente. Una de ellas es fomentar el
+        transporte público urbano sostenible. Una de las grandes ventajas de crear una red eficiente de
+        transporte público es la reducción del tráfico de automóviles particulares. Para conseguir crear una
+        red de transporte colectiva óptima y sostenible en las grandes aglomeraciones urbanas es necesario
+        implantar medidas basadas en tecnologías inteligentes. Este tipo de medidas deberían responder al
+        espíritu de lo que se conoce como ciudad inteligente (Smart city), lo cual aún se encuentra en
+        desarrollo.
+        <br>
+        <br>
+    </p>
+</div>
 `
 
 $("root").addEventListener('onLoad', onLoad())
@@ -233,12 +234,12 @@ const divIntegrantes = $("integrantes")
 
 function onLoad() {
     const hRoot = window.location.hash
-    $("integrantes").innerHTML = cargaIntegrantes()
-    $("divCartTemas").innerHTML = cargaTemas()
+    $("dashIntegrantes").innerHTML = cargaIntegrantes()
+    $("sectionThems").innerHTML = cargaTemas()
     cargaContenidoTema(hRoot);
     $("navbar").className = toggleDarkLightValue() ? 'navbarDark' : 'navbarLigth'
     $("navbar").className = toggleDarkLightValue() ? 'navbarDark' : 'navbarLigth'
-    $("integrantes").className = toggleDarkLightValue() ? 'integrantesDark' : 'integrantesLigth'
+    $("dashIntegrantes").className = toggleDarkLightValue() ? 'dashIntegrantesDark' : 'dashIntegrantesLigth'
 }
 
 function aFunction(hash) {
@@ -254,10 +255,10 @@ function cargaContenidoTema(hashTema) {
     const id = temasCard.filter(tema => tema.ruta == hashTema)[0] ?.id
     if (id != undefined) {
         const contenidoTema = temasContent.filter(content => content.id = id)[0]
-        $("contenidoPagina").innerHTML = agregaContenidoTema(contenidoTema)
+        $("sectionContenidoSelecionado").innerHTML = agregaContenidoTema(contenidoTema)
         return
     }
-    $("contenidoPagina").innerHTML = intro
+    $("sectionContenidoSelecionado").innerHTML = intro
 }
 
 function agregaContenidoTema(content) {
@@ -331,16 +332,14 @@ function toggleDarkLight() {
 
 function cargaTemas() {
 
-    let cartTemas = ''
-
+    let cartTemas = '<h1 class="sectionThems-title">Temas</h1>'
     temasCard.forEach(tema => {
         cartTemas = cartTemas + `
         <div class=" cardTheme ${ toggleDarkLightValue() && "dark"}">
-            <img src="${tema.img}" class="cardTheme-img" alt="img_${tema.description}">
-                <a id="aTema${tema.id}" onClick=aFunction("${tema.ruta}") href="${tema.ruta}" class="cardTheme-btn">
+            <a id="aTema${tema.id}" onClick=aFunction("${tema.ruta}") href="${tema.ruta}" class="cardTheme-btn">
+                <img src="${tema.img}" class="cardTheme-img" alt="img_${tema.description}">
                 <q class="cardTheme-title">${tema.title}</q>
-                </a>
-            </img>
+            </a>
         </div>
         `
     })
