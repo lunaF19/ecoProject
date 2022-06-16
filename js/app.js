@@ -255,17 +255,17 @@ function cargaContenidoTema(hashTema) {
     const id = temasCard.filter(tema => tema.ruta == hashTema)[0] ?.id
     if (id != undefined) {
         const contenidoTema = temasContent.filter(content => content.id = id)[0]
-        $("sectionContenidoSelecionado").innerHTML = agregaContenidoTema(contenidoTema)
+        $("sectionContenidoSelecionado").innerHTML = agregaContenidoAPagina(contenidoTema)
         return
     }
     $("sectionContenidoSelecionado").innerHTML = intro
 }
 
-function agregaContenidoTema(content) {
+function agregaContenidoAPagina(content) {
 
     return `
     <div class="temaConten">
-        <h1 name="${temasCard[content.id-1].ruta.replace("#","")}">${temasCard[content.id-1].title} </h1>
+        <h1 name="${temasCard[content.id-1].ruta.replace("#","")}" class="temaConten-tile">${temasCard[content.id-1].title} </h1>
         <div class="temaConten-text1">
             <p>
             ${content.text1}
