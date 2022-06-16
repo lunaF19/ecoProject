@@ -252,7 +252,7 @@ window.addEventListener('scroll', function () {
 })
 
 function cargaContenidoTema(hashTema) {
-    const id = temasCard.filter(tema => tema.ruta == hashTema)[0] ?.id
+    const id = temasCard.filter(tema => tema.ruta == hashTema)[0]?.id
     if (id != undefined) {
         const contenidoTema = temasContent.filter(content => content.id = id)[0]
         $("sectionContenidoSelecionado").innerHTML = agregaContenidoAPagina(contenidoTema)
@@ -335,9 +335,9 @@ function cargaTemas() {
     let cartTemas = '<h1 class="sectionThems-title">Temas</h1>'
     temasCard.forEach(tema => {
         cartTemas = cartTemas + `
-        <div class=" cardTheme ${ toggleDarkLightValue() && "dark"}">
+        <div class=" cardTheme ${ toggleDarkLightValue() && "dark"}" style="background-image: url(${tema.img})">
             <a id="aTema${tema.id}" onClick=aFunction("${tema.ruta}") href="${tema.ruta}" class="cardTheme-btn">
-                <img src="${tema.img}" class="cardTheme-img" alt="img_${tema.description}">
+                <p class="cardTheme-numTema">Tema ${tema.id}</p>
                 <q class="cardTheme-title">${tema.title}</q>
             </a>
         </div>
