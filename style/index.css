@@ -214,28 +214,53 @@ header {
   border: 1px solid white;
   padding: 0px;
   margin: 0.3125rem;
-  /* overflow: hidden; */
+   overflow: hidden;
   justify-content: center;
   justify-items: center;
+  background-size: cover;
+}
+.cardTheme:hover {
+ 
+}
+.cardTheme-numTema {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  transition: all 1s;
 }
 
-.cardTheme-img {
-  width: 100%;
-  height: 100%;
-}
 
 .cardTheme-btn {
-  color: transparent;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding-top: 165px ;
+  transition: all 1s;
+  text-decoration: none;
+  font-size: 24px;
+
 }
 
 .cardTheme-btn:hover {
-  background: #000;
+  display: flexbox;
+  padding: 0;
+  padding: 20px 0 10px 0;
+  background: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  line-height: center;
+  align-content: center;
+
+}
+
+.cardTheme-btn:hover .cardTheme-numTema {
+  color: transparent;
+  font-size: 0px;
 }
 
 .cardTheme-title {
-  position: absolute;
-  font-size: 20px;
-  position: fixed;
+  position: relative;
   margin: 0%;
   width: 10px;
 }
@@ -277,7 +302,12 @@ header {
     width: 39%;
     height: 10%;
   }
-
+  .cardTheme-btn {
+    color: white;
+    padding-top: 90px ;
+    font-size: 18px;
+  }
+  
   .integrante {
     grid-template-columns: 1fr;
   }
@@ -319,6 +349,13 @@ header {
     
   }
 
+  .cardTheme-btn {
+    color: white;
+    padding-top: 96px ;
+    font-size: 15px;
+  }
+  
+
 }
 
 @media screen and (max-width: 900px) { 
@@ -342,6 +379,11 @@ header {
 
   .imgCir {
     width: 80px;
+  }
+  .cardTheme-btn {
+    color: white;
+    padding-top: 98px ;
+    font-size: 12px;
   }
 
 }
@@ -419,6 +461,12 @@ header {
 
   }
 
+  .cardTheme-btn {
+    color: white;
+    padding-top: 97px ;
+    font-size: 16px;
+  }
+
 }
 
 @media screen and (max-width: 600px) { 
@@ -426,6 +474,12 @@ header {
     margin-top: 10px;
   }
   .temaConten {
+  }
+
+  .cardTheme-btn {
+    color: white;
+    padding-top: 97px ;
+    font-size: 15px;
   }
 }
 
@@ -464,6 +518,12 @@ header {
     width: auto;
     margin: 0;
     height: 5%;
+  }
+
+  .cardTheme-btn {
+    color: white;
+    padding-top: 45px ;
+    font-size: 10px;
   }
 }
 
