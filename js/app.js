@@ -165,7 +165,7 @@ const temasContent = [{
 const intro = `
 <div class="temaConten">
     <h1>Introducción</h1>
-    <p style="text-align: justify; font-size: 20px;">
+    <p style="text-align: justify; font-size: 1.25rem;">
 
         La sostenibilidad consiste en satisfacer las necesidades de las generaciones actuales sin
         comprometer las necesidades de las generaciones futuras, al mismo tiempo que se garantiza un
@@ -305,7 +305,7 @@ function cargaIntegrantes() {
                     <div class="integrante-img">    
                         <img class="imgCir" src="${int.img}" alt="img${int.nombre}">
                         <div class="integrante-desc">
-                            <p style="font-size: 14px">
+                            <p>
                                 ${int.desc}
                             </p>
                         </div>
