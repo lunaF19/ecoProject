@@ -1,6 +1,5 @@
 body {
   font-family: Segoe "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  transition: all 1s;
   font-size: 20px;
   padding: 0;
   margin: 0;
@@ -122,7 +121,6 @@ header {
   background-color: rgb(22, 22, 22);
   padding-left: 30px;
   top: 70px;
-  transition: all 1s;
   overflow: auto;
 }
 
@@ -173,7 +171,6 @@ header {
 .dashIntegrantes {
   display: flexbox;
   position: fixed;
-  transition: all 1s;
   flex-direction: column;
   width: 20%;
 }
@@ -225,7 +222,6 @@ header {
 .cardTheme-img {
   width: 100%;
   height: 100%;
-  transition: all 1s;
 }
 
 .cardTheme-btn {
@@ -266,7 +262,7 @@ header {
 .temaConten-img1,
 .temaConten-img2 {
   width: 90%;
-  height: 30%px;
+  height: 20%;
 }
 
 @media screen and (max-width: 1700px) {
@@ -346,9 +342,11 @@ header {
 
 
 @media screen and (max-width: 800px) { 
+
   body {
     font-size: 13px;
   }
+
   .containerPrincipal {
     margin-left: 0%;
 
@@ -362,7 +360,7 @@ header {
   }
 
   .cardTheme {
-    width: 100%;
+    width: 40%;
     height: 5%;
   }
 
@@ -404,6 +402,27 @@ header {
 @media screen and (max-width: 600px) { 
   body {
     margin-top: 10px;
+  }
+}
+
+
+
+@media screen and (max-width: 460px) { 
+  body {
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+
+  }
+
+  .sectionThems {
+    margin: 0px;
+    padding: 0px;
+  }
+  .cardTheme {
+    width: 45%;
+    margin: 0;
+    height: 5%;
   }
 }
 
