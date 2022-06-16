@@ -233,7 +233,6 @@ header {
 }
 
 .cardTheme-btn:hover {
-  color: green;
   background: #000;
 }
 
@@ -266,8 +265,8 @@ header {
 
 .temaConten-img1,
 .temaConten-img2 {
-  width: 37.5rem;
-  height: 18.75rem;
+  width: 90%;
+  height: 30%px;
 }
 
 @media screen and (max-width: 1700px) {
@@ -370,8 +369,14 @@ header {
   .dashIntegrantesLigth, .dashIntegrantesDark{
     display: flexbox;
     position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
     width: 100%;
-    height: 40vh;
+    height: 28vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10px;
   }
 
   .integrante {
