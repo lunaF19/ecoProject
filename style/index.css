@@ -275,6 +275,10 @@ header {
   overflow: auto;
 }
 
+.sectionContenidoSelecionado ul, .sectionContenidoSelecionado ol, h3 {
+  text-align: left;
+}
+
 .temaConten {
   display: inline-block;
   margin: 20px;
@@ -284,10 +288,11 @@ header {
   font-size: 0.9375rem;
 }
 .temaConten-tile {
-
+  font-size: 30px;
 }
 .temaConten-text2,
 .temaConten-text2 {
+  font-size: 20px;
 
 }
 .temaConten-img1,
