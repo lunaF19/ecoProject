@@ -84,8 +84,7 @@ header {
 .navbarLigth a:hover {
   color: rgb(123, 120, 120);
   border-radius: 10px;
-  padding: 5px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .Logo {
@@ -188,12 +187,12 @@ header {
   padding: 0px;
   padding-top: 40px;
   top: 0px;
+  height: 90vh;
 }
 
 /* Seccion Temas*/
 .sectionThems {
   display: inline-block;
-  display: flexbox;
   flex-direction: row;
   height: 1150px;
   width: 30%;
@@ -230,7 +229,6 @@ header {
   transition: all 1s;
 }
 
-
 .cardTheme-btn {
   display: block;
   width: 100%;
@@ -251,7 +249,6 @@ header {
   align-items: center;
   line-height: center;
   align-content: center;
-
 }
 
 .cardTheme-btn:hover .cardTheme-numTema {
@@ -287,6 +284,7 @@ header {
   height: 100%;
   font-size: 0.9375rem;
 }
+
 .temaConten-tile {
   font-size: 30px;
 }
