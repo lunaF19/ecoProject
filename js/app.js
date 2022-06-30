@@ -1,18 +1,18 @@
-const $ = (a) => document.getElementById(a)
+const $ = a => document.getElementById(a)
 
 const integrantes = [{
         nombre: "Adriana Barboza",
-        img: "https://dummyimage.com/400x400/",
+        img: "./img/IntegrantesImg/AdrianaBarboza.png",
         desc: "Estudiante de Ing.Informatica"
     },
     {
         nombre: "Francisco Luna",
-        img: "https://dummyimage.com/400x400/",
+        img: "./img/IntegrantesImg/FranciscoLuna.png",
         desc: "Estudiante de Ing.Informatica"
     },
     {
         nombre: "Julio Amador",
-        img: "https://dummyimage.com/400x400/",
+        img: "./img/IntegrantesImg/JulioAmador.png",
         desc: "Estudiante de Ing.Informatica"
 
     }
@@ -353,9 +353,8 @@ window.addEventListener('scroll', function () {
 function cargaContenidoTema(hashTema) {
     const id = temasCard.filter(tema => tema.ruta == hashTema)[0]?.id
     if (id != undefined) {
-        console.log("asdasd")
         const contenidoTema = temasContent.filter(content => content.id === id)[0]
-        console.log(contenidoTema)
+        //console.log(contenidoTema)
         $("sectionContenidoSelecionado").innerHTML = agregaContenidoAPagina(contenidoTema)
         return
     }
